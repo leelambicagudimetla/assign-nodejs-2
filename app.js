@@ -203,6 +203,7 @@ app.get(
 
     data.likes = likes;
     response.send(data);
+    console.log(data);
   }
 );
 
